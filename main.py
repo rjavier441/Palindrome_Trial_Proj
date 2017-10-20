@@ -22,21 +22,6 @@ else:
 
 print "Longest Palindrome: " + palindrome.longest(found_palindromes)
 
-print "Full List:"
-for pd in found_palindromes:
-	print pd
-
-# Mock of the entire palindrome search process
-# sentence_arr = palindrome.sentencesFromFile("Guidelines/input.txt")
-# for some_str in sentence_arr:
-# 	print ""
-# 	print ""
-# 	# some_str = "Amore, Roma."
-# 	print "Is \"" + some_str + "\" a palindrome? Let's see..."
-# 	some_formatted_string = palindrome.filterCharsIn("Amore, Roma.", chars_to_ignore)
-# 	print "The formatted string is \"" + some_formatted_string + "\""
-# 	is_palind = palindrome.palgorithm(some_formatted_string.lower())
-# 	if (is_palind):
-# 		print "\"" + some_str + "\" is a palindrome"
-# 	else:
-# 		print "\"" + some_str + "\" is not a palindrome"
+# print "Full List:"
+# for pd in found_palindromes:
+# 	print pd
